@@ -116,7 +116,24 @@ foreach ($permisosAsignados as $permisoAsignado) {
                                 </nav>
                             </div>
 
+                            <?php }
+
+                        if (isset($datosRol[30])) { ?>
+
+                            <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#menuOrdenes" aria-expanded="false" aria-controls="menuOrdenes">
+                                <div class="sb-nav-link-icon"><i class="fas fa-list"></i></div>
+                                Orden de Trabajo
+                                <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                            </a>
+                            <div class="collapse" id="menuOrdenes" aria-labelledby="headingOne" data-parent="#sidenavAccordion">
+                                <nav class="sb-sidenav-menu-nested nav">
+                                    <a class="nav-link" href="<?php echo site_url('reportes/detalle_reporte_venta'); ?>">Generar Orden</a>
+                                    <a class="nav-link" href="<?php echo site_url('productos/mostrarMinimos'); ?>">Reporte mínimos</a>
+                                </nav>
+                            </div> 
+
                         <?php }
+
                         if (isset($datosRol[29])) { ?>
 
                             <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#subAdministracion" aria-expanded="false" aria-controls="subAdministracion">
