@@ -1,7 +1,7 @@
 <footer class="py-3 bg-light mt-auto">
     <div class="container-fluid">
         <div class="d-flex align-items-center justify-content-between small">
-            <div class="text-muted">Desarrollado por Códigos de Programación.</div>
+            <div class="text-muted">Ventanas Ventanas </div>
         </div>
     </div>
 </footer>
